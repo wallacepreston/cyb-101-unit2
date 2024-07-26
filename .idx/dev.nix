@@ -48,7 +48,7 @@
       };
       # Runs when the workspace is (re)started
       onStart = {
-        start = "docker run -it --rm --platform linux/amd64 --name codepath-cyb-101 -v $(pwd):/home/codepath/code -p 22:22 -p 3389:3389 prestonwallace/codepath:cyb-101"; 
+        start = "docker run -it --rm --platform linux/amd64 --name codepath-cyb-101 -v $(pwd):/home/codepath/code -p 22:22 -p 3389:3389 prestonwallace/codepath:cyb-101-unit2"; 
       };
     };
   };
